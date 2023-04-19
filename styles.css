@@ -1,0 +1,148 @@
+/* nav-bar-top */
+.nav-bar {
+  padding: var(--size-20) 0;
+  position: fixed;
+  background-color: var(--font-color-white);
+  z-index: 200;
+  width: 100%;
+}
+.nav-top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+}
+
+.nav-left {
+  padding: var(--size-10);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.google-icon {
+  width: var(--size-30);
+  height: var(--size-30);
+}
+
+.google-logo {
+  width: 120px;
+  height: 45px;
+  padding: 0 var(--size-20);
+}
+
+.button-controls {
+  display: flex;
+  align-items: center;
+}
+
+.btn-search img {
+  pointer-events: none;
+}
+
+.container-search {
+  width: 650px;
+  border: 1px solid lightgrey;
+  border-radius: var(--size-20);
+  margin-left: 200px;
+  display: flex;
+  gap: var(--size-10);
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 5px 8px rgb(223, 224, 225);
+}
+.search-bar {
+  width: 350px;
+  height: var(--size-25);
+  margin-left: var(--size-15);
+  line-height: var(--size-25);
+  overflow: hidden;
+  resize: none;
+  border: 1px solid transparent;
+}
+
+.vl {
+  border-left: 1px solid lightgrey;
+  height: var(--size-30);
+  width
+}
+
+.nav-right {
+  padding: 0 var(--size-30);
+}
+
+.nav-right .google-icon {
+  padding: 0 var(--size-15);
+}
+/* nav-bar-bottom */
+
+.nav-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.menu-icon {
+  width: var(--size-20);
+  padding-top: var(--size-5);
+  vertical-align: bottom;
+}
+
+.btn-nav, .nav-bottom-rt > span {
+  padding: 0 var(--size-20);
+}
+
+.nav-bottom-rt {
+  padding-top: 8px;
+}
+
+.nav-bottom-left {
+  margin-left: var(--size-100);
+}
+
+/* search-results section */
+.search-result h3{
+  color: rgb(28, 14, 186);
+}
+
+/* people ask section*/
+
+.people-ask {
+  padding-bottom: 50px;
+}
+
+.people-ask ul li{
+  padding: 5px 20px;
+  border: 1px solid rgb(240, 240, 240);
+  color: grey;
+}
+
+/* footer section */
+
+.footer-nav {
+  text-align: center;
+}
+
+.footer-nav img {
+  vertical-align: super;
+}
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.pagination a {
+  color: rgb(65, 119, 248);
+}
+
+.pages {
+  display: flex;
+  justify-content: center;
+  gap: var(--size-30);
+}
+
+.pages .pg-selected {
+  color: grey;
+}
